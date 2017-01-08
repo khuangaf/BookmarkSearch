@@ -1,7 +1,7 @@
 Guidance
 =============
 
-This chrome extension in built by javascript to enable users to search bookmarks conveniently.
+This chrome extension is built by angularJS to enable users to search bookmarks conveniently.
 
 ### Installation
 	>>> git clone https://github.com/khuangaf/BookmarkSearch.git
