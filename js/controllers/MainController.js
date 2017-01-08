@@ -62,10 +62,15 @@ app.controller("MainController", function($scope) {
     		
     		$scope.$apply();
     	});
-    	
-    	
-
 	});
+	$scope.click = function(url){
+		var newtab = {url: url};
+		chrome.tabs.create(newtab);
+		
+	}
+	// document.getElementById("bookmark").addEventListener("click",function(){
+	// 	console.log('abc');
+	// });
   	
 
 });
