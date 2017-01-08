@@ -31,9 +31,9 @@
     </md-content>
   
     
-    
-      <md-list-item class="md-3-line" ng-repeat="bookmark in bookmarks">
-        <div ng-click="click(bookmark.url)" class="md-list-item-text">{{bookmark.title}}</div>
+      
+      <md-list-item class="md-2-line" ng-repeat="bookmark in bookmarks" ng-click="click(bookmark.url)">
+        <h3 class="md-list-item-text">{{bookmark.title}}</h3>
         <md-divider ng-if="!$last"></md-divider>
         <!-- <a href="{{bookmark.url}}">{{bookmark.title}}</a> -->
       </md-list-item>

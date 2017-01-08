@@ -3,7 +3,7 @@ body
 	width:400px;
 	height:100px;
 	
-	background: white;
+	
 }
 
 md-input-container{
@@ -11,10 +11,10 @@ md-input-container{
 }
 
 md-list-item{
-	font-size:15px;
+	/*font-size:15px;*/
 }
 
-md-list-item:hover{
+/*md-list-item:hover{
 	background:	#1E90FF ;
 	font-weight: bold;
-}
+}*/
